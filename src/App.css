@@ -1,0 +1,158 @@
+
+/* HALAMAN LOGIN DAN PENDAFTARAN */
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 16px;
+  background: #f3f8f4;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 440px;
+  padding: 38px;
+  background: white;
+  border-radius: 22px;
+  box-shadow: 0 12px 45px rgba(35, 75, 48, 0.08);
+}
+
+.auth-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 35px;
+}
+
+.auth-logo h2 {
+  margin: 0;
+  color: #245b3e;
+}
+
+.auth-logo span {
+  color: #87958b;
+  font-size: 12px;
+}
+
+.auth-heading h1 {
+  margin: 12px 0;
+  color: #244b36;
+  font-size: 27px;
+}
+
+.auth-heading p {
+  color: #87958b;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.auth-label {
+  display: block;
+  margin-bottom: 17px;
+  color: #345743;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.auth-label input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  margin-top: 8px;
+  border: 1px solid #dce8df;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+.auth-label input:focus {
+  border-color: #4d9b69;
+  box-shadow: 0 0 0 3px rgba(77, 155, 105, 0.1);
+}
+
+.auth-submit {
+  width: 100%;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.auth-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.auth-switch {
+  margin-top: 24px;
+  text-align: center;
+  color: #87958b;
+  font-size: 13px;
+}
+
+.auth-switch button {
+  border: none;
+  background: none;
+  color: #328653;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.auth-message {
+  padding: 12px 14px;
+  margin-top: 18px;
+  border-radius: 9px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.success-message {
+  background: #eaf7ee;
+  color: #27643e;
+}
+
+.error-message {
+  background: #fff0ef;
+  color: #b43e36;
+}
+
+.auth-footer {
+  text-align: center;
+  color: #a0aaa3;
+  font-size: 11px;
+  margin-top: 30px;
+}
+
+.topbar-user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: #45634f;
+  font-size: 13px;
+}
+
+.logout-button {
+  border: 1px solid #dce8df;
+  background: white;
+  color: #477b57;
+  padding: 9px 14px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background: #edf7ef;
+}
+
+@media (max-width: 500px) {
+  .auth-card {
+    padding: 25px 20px;
+  }
+
+  .auth-heading h1 {
+    font-size: 23px;
+  }
+}
